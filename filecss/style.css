@@ -1,0 +1,298 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family:fantasy;
+}
+header
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    direction: rtl;
+    height: 10vh;
+}
+header .right img
+{
+   width: 90px;
+
+}
+header i
+{
+    color: rgb(77, 7, 109);
+    padding: 10px;
+    transition: 0.5s;
+
+}
+header i:hover
+{
+    font-size: 20px;
+}
+.landing
+{
+    background-color: rgb(112, 16, 136);
+    width: 100%;
+    height: calc(100vh - 43px);
+    text-align: center;
+    color: white;
+}
+.landing img
+{
+    width: 100px;
+    margin-top: 80px;
+}
+.landing h2
+{
+    margin: 20px;
+}
+.landing a
+{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid ;
+    border-bottom: 4px solid ;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin: 20px;
+    transition: 0.5s;
+}
+.landing a:hover
+{
+    font-size: 18px;
+    background-color: rgb(66, 5, 82);
+}
+.service
+{
+    color: rgb(112, 16, 136);
+    text-align: center;
+    padding: 10px;
+
+}
+.service i
+{
+    font-size: 100px;
+}
+.service .box1
+{
+    border: 1px solid;
+    border-bottom: 4px solid;
+    border-radius: 20px;
+    padding: 20px 1px;
+    margin: 20px;
+    display: inline-block;
+    width: 350px;
+}
+.service .box2
+{
+    border: 1px solid;
+    border-bottom: 4px solid;
+    border-radius: 20px;
+    padding: 20px 1px;
+    margin: 20px;
+    display: inline-block;
+    width: 350px;
+}
+.service .box3
+{
+    border: 1px solid;
+    border-bottom: 4px solid;
+    border-radius: 20px;
+    padding: 20px 1px;
+    margin: 20px;
+    display: inline-block;
+    width: 350px;
+}
+.service .box4
+{
+    border: 1px solid;
+    border-bottom: 4px solid;
+    border-radius: 20px;
+    padding: 20px 1px;
+    margin: 20px;
+    display: inline-block;
+    width: 350px;
+}
+.service .box5
+{
+    border: 1px solid;
+    border-bottom: 4px solid;
+    border-radius: 20px;
+    padding: 20px 1px;
+    margin: 20px;
+    display: inline-block;
+    width: 350px;
+}
+.service .box6
+{
+    border: 1px solid;
+    border-bottom: 4px solid;
+    border-radius: 20px;
+    padding: 20px 1px;
+    margin: 20px;
+    display: inline-block;
+    width: 350px;
+}
+.service a
+{
+    background-color:rgb(112, 16, 136) ;
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 10px;
+    transition: 0.5s;
+}
+.service a:hover
+{
+    font-size: 18px;
+    background-color: rgb(66, 5, 82);
+}
+.sections
+{
+    background-color: rgb(112, 16, 136);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.sections i
+{
+    color: white;
+    font-size: 70px;
+}
+.sections .section1
+{
+    border: 1px solid;
+    border-bottom: 5px solid;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    width: 100px;
+    margin: 40px;
+}
+.sections .section2
+{
+    border: 1px solid;
+    border-bottom: 5px solid;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 40px;
+}
+.sections .section3
+{
+    border: 1px solid;
+    border-bottom: 5px solid;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 40px;
+}
+.sections .section4
+{
+    border: 1px solid;
+    border-bottom: 5px solid;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 40px;
+}
+.sections .section5
+{
+    border: 1px solid;
+    border-bottom: 5px solid;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 40px;
+}
+.sections .section6
+{
+    border: 1px solid;
+    border-bottom: 5px solid;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 40px;
+}
+.sections .section7
+{
+    border: 1px solid;
+    border-bottom: 5px solid;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 40px;
+}
+.sections .section8
+{
+    border: 1px solid;
+    border-bottom: 5px solid;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 40px;
+}
+.sections h4
+{
+    margin-top: 10px;
+}
+.we
+{
+    text-align: center;
+    color:rgb(112, 16, 136);
+    padding: 100px;
+    margin: 20px;
+   
+}
+.info
+{
+    background-color:rgb(112, 16, 136);
+    color: white;
+    padding: 20px;
+    
+}
+.e-mail
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.location
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.phone
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.info i
+{
+   border: 1px solid;
+   padding: 3px 10px;
+   border-radius: 10px;
+   display: inline-block;
+   margin: 10px;
+}
+.e-mail a
+{
+    color: white;
+    text-decoration: none;
+    font-family:sans-serif ;
+    font-size: small;
+    display: block;
+    transition: 0.5s;
+}
+.e-mail a:hover
+{
+    font-size: 14px;
+}
+.info p
+{
+    font-family: sans-serif;
+}
+
+
